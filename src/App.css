@@ -3,7 +3,7 @@
   background-color: darkslategrey;
 }
 
-.container {
+.movieContainer {
   text-align: center;
   border: 5px solid black;
   padding: 10px;
@@ -12,4 +12,23 @@
 
 .appBody {
   text-align: center;
+}
+
+.movieContainer img {
+  max-width: 100%;
+  height: auto;
+}
+
+.movieTitle {
+  margin: 10px 0;
+}
+
+.movieSynopsis {
+  border: 5px solid black;
+  padding: 10px;
+}
+
+.movieRating {
+  border: 5px solid black;
+  padding: 10px;
 }

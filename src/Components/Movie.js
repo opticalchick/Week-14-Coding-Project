@@ -11,10 +11,16 @@ const Movie = ({ movie }) => {
     }
 
     return (
-        <div className='container'>
+        <div className='movieContainer'>
             <img src={movie.image} alt={movie.title}></img>
-
-
+            <h2 className='movieTitle'>{movie.title}</h2>
+            <p className='movieSynopsis'>{movie.synopsis}</p>
+            <p className='movieRating'>{movie.rating}</p>
+            <Stars />
+            <ReviewsList reviews={reviews} />
+            <ReviewForm movie={movie} showReviews={showReviews} />
         </div>
-    )
-}
+    );
+};
+
+export default Movie;
