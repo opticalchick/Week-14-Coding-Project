@@ -10,6 +10,10 @@ const Movie = ({ movie }) => {
         setReviews([reviews, newReview]);
     }
 
+    // This is the container to hold each movie and render to the page. It includes an image
+    // of the movie poster, the movie's rating, an area to leave a rating, and an area to leave
+    // a review.
+
     return (
         <div className='movieContainer justify-content-center h-100'>
             <div className='row row-cols-1 row-cols-md-3 h-100'>

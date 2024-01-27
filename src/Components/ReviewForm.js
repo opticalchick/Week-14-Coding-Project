@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import ReviewsList from "./ReviewsList";
 
-
+// This is the function for the review form.  It takes in DataTransfer, then on 
+// the submit button click, it shows the review and resets the text area back to default.
 
 const ReviewForm = ({ value, movie }) => {
     const [review, setReview] = useState('');

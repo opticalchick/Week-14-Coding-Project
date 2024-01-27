@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Box from "@mui/material/Box";
 import Rating from "@mui/material/Rating";
 
+// This is for the rating stars and submitting the user's personal rating.
 
 const Stars = () => {
     const [rating, setRating] = useState(0);
