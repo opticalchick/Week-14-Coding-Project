@@ -1,34 +1,34 @@
-.App {
-  text-align: center;
-  background-color: darkslategrey;
-}
+ #App {
+   text-align: center;
+   background-color: aqua;
+ }
 
-.movieContainer {
-  text-align: center;
-  border: 5px solid black;
-  padding: 10px;
-  margin: 10px;
-}
+ .movieContainer {
+   margin: 50px;
+   display: flex;
+   flex-wrap: wrap;
+ }
 
-.appBody {
-  text-align: center;
-}
+ .appBody {
+   text-align: center;
+ }
 
-.movieContainer img {
-  max-width: 100%;
-  height: auto;
-}
+ .movieContainer img {
+   max-width: 100%;
+   height: auto;
+ }
 
-.movieTitle {
-  margin: 10px 0;
-}
+ .movieTitle {
+   margin: 10px 0;
+ }
 
-.movieSynopsis {
-  border: 5px solid black;
-  padding: 10px;
-}
+ .movieSynopsis {
+   border: 2px solid black;
+   padding: 10px;
+   border-radius: 10px;
+ }
 
-.movieRating {
-  border: 5px solid black;
-  padding: 10px;
-}
+ .card {
+   border: 1px solid black;
+
+ }

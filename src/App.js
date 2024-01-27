@@ -8,11 +8,11 @@ import './App.css';
 const moviesData = [
   {
     id: 1,
-    title: "Old School",
+    title: "Bridget Jones's Diary",
     image:
-      "https://impdb.fandom.com/wiki/Old_School?file=Old_School_2003.jpg",
+      "https://upload.wikimedia.org/wikipedia/en/1/17/BridgetJonesDiaryMoviePoster.jpg",
     synopsis:
-      "Three friends attempt to recapture their glory days by opening up a fraternity near their alma mater.",
+      "Bridget Jones is determined to improve herself while she looks for love in a year in which she keeps a personal diary.",
     rating: "R",
   },
   {
@@ -34,20 +34,20 @@ const moviesData = [
   },
   {
     id: 4,
-    title: "Wedding Crashers",
+    title: "Sixteen Candles",
     image:
-      "https://www.imdb.com/title/tt0396269/mediaviewer/rm746526464/?ref_=tt_ov_i",
+      "https://upload.wikimedia.org/wikipedia/en/3/34/Sixteen_Candles.jpg",
     synopsis:
-      "John Beckwith and Jeremy Grey, a pair of committed womanizers who sneak into weddings to take advantage of the romantic tinge in the air, find themselves at odds with one another when John meets and falls for Claire Cleary.",
-    rating: "R",
+      "A girl's 'sweet' sixteenth birthday is anything but special: her family forgets about it, and she suffers from every embarrassment possible.",
+    rating: "PG",
   },
   {
     id: 5,
-    title: "Step Brothers",
+    title: "Bohemian Rhapsody",
     image:
-      "https://www.imdb.com/title/tt0838283/mediaviewer/rm3433645824/?ref_=tt_ov_i",
+      "https://upload.wikimedia.org/wikipedia/en/2/2e/Bohemian_Rhapsody_poster.png",
     synopsis:
-      "Two aimless middle-aged losers still living at home are forced against their will to become roommates when their parents marry.",
+      "The story of the legendary British rock band Queen and lead singer Freddie Mercury, leading up to their famous performance at Live Aid (1985).",
     rating: "R",
   },
 ];
